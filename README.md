@@ -1,1 +1,3 @@
-Simple ASP.NET MVC Application with .NET v9.0, EF, SQL Server 2022
+# Exam Registration
+
+Simple ASP.NET MVC Application with .NET v9.0, Entity Framework, SQL Server 2022
