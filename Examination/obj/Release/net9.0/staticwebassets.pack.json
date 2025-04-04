@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mahir\\Desktop\\ProSys\\Educational\\Examination\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Examination.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Examination.vqxkcmr6s4.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.Examination.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.Examination.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.build.Examination.props",
+      "PackagePath": "build\\Examination.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Examination.props",
+      "PackagePath": "buildMultiTargeting\\Examination.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildTransitive.Examination.props",
+      "PackagePath": "buildTransitive\\Examination.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

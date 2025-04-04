@@ -1,0 +1,65 @@
+﻿@model PupilDTO
+@{
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">Yeni Şagird</h2>
+
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Şagirdin kodu</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="PCode" />
+                    <span asp-validation-for="PCode" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Adı</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="PName" />
+                    <span asp-validation-for="PName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Soyadı</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="PSurname" />
+                    <span asp-validation-for="PSurname" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Sinif</label>
+                <div class="col-sm-8">
+                    <select class="form-select" asp-for="PGrade">
+                        <option value="11">11</option>
+                        <option value="10">10</option>
+                        <option value="9">9</option>
+                        <option value="8">8</option>
+                        <option value="7">7</option>
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Yadda saxla</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-primary" asp-controller="Pupils" asp-action="Index" role="button">İmtina</a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

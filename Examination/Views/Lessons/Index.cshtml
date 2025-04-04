@@ -1,0 +1,50 @@
+﻿@model List<Lesson>
+
+@{
+}
+
+<h2 class="text-center mb-5">Dərslər</h2>
+
+<div class="row mb-5">
+    <div class="col">
+        <a class="btn btn-primary" asp-controller="Lessons" asp-action="Create">Yeni əlavə et</a>
+    </div>
+
+    <div class="col">
+
+    </div>
+</div>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Dərsin kodu</th>
+            <th>Adı</th>
+            <th>Sinif</th>
+            <th>Müəllimin adı</th>
+            <th>Müəllimin soyadı</th>
+            <th>İcraat</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var lesson in Model)
+        { 
+            <tr>
+                <td>@lesson.Id</td>
+                <td>@lesson.LCode</td>
+                <td>@lesson.LName</td>
+                <td>@lesson.LGrade</td>
+                <td>@lesson.LTeacherName</td>
+                <td>@lesson.LTeacherSurname</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="Lessons" asp-action="Modify" asp-route-id="@lesson.Id">Dəyiş</a>
+                    <a class="btn btn-danger btn-sm" asp-controller="Lessons" asp-action="Delete" asp-route-id="@lesson.Id" onclick="return confirm('Cari dərsi silməyinizə əminsinizmi?!')">Sil</a>
+                </td>
+            </tr>        
+        }
+    </tbody>
+
+</table>

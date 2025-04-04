@@ -1,0 +1,80 @@
+﻿@model LessonDTO
+@{
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">Dərsi dəyiş</h2>
+
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">ID</label>
+                <div class="col-sm-8">
+                    <input class="form-control-plaintext" readonly value="@ViewData["LessonID"]" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Dərsin kodu</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="LCode" />
+                    <span asp-validation-for="LCode" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Dərsin adı</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="LName" />
+                    <span asp-validation-for="LName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Sinif</label>
+                <div class="col-sm-8">
+                    <select class="form-select" asp-for="LGrade">
+                        <option value="11">11</option>
+                        <option value="10">10</option>
+                        <option value="9">9</option>
+                        <option value="8">8</option>
+                        <option value="7">7</option>
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Müəllimin adı</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="LTeacherName" />
+                    <span asp-validation-for="LTeacherName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Müəllimin soyadı</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="LTeacherSurname" />
+                    <span asp-validation-for="LTeacherSurname" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Yadda saxla</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-primary" asp-controller="Lessons" asp-action="Index" role="button">İmtina</a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mahir\\Desktop\\ProSys\\Educational\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99A8AD01-88BD-44C0-A952-474B2924DA9B}|Examination\\Examination.csproj|c:\\users\\mahir\\desktop\\prosys\\educational\\examination\\views\\exams\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99A8AD01-88BD-44C0-A952-474B2924DA9B}|Examination\\Examination.csproj|solutionrelative:examination\\views\\exams\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A8AD01-88BD-44C0-A952-474B2924DA9B}|Examination\\Examination.csproj|c:\\users\\mahir\\desktop\\prosys\\educational\\examination\\views\\pupils\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99A8AD01-88BD-44C0-A952-474B2924DA9B}|Examination\\Examination.csproj|solutionrelative:examination\\views\\pupils\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A8AD01-88BD-44C0-A952-474B2924DA9B}|Examination\\Examination.csproj|c:\\users\\mahir\\desktop\\prosys\\educational\\examination\\views\\lessons\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99A8AD01-88BD-44C0-A952-474B2924DA9B}|Examination\\Examination.csproj|solutionrelative:examination\\views\\lessons\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Modify.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahir\\Desktop\\ProSys\\Educational\\Examination\\Views\\Exams\\Modify.cshtml",
+              "RelativeDocumentMoniker": "Examination\\Views\\Exams\\Modify.cshtml",
+              "ToolTip": "C:\\Users\\Mahir\\Desktop\\ProSys\\Educational\\Examination\\Views\\Exams\\Modify.cshtml",
+              "RelativeToolTip": "Examination\\Views\\Exams\\Modify.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T16:37:20.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modify.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahir\\Desktop\\ProSys\\Educational\\Examination\\Views\\Pupils\\Modify.cshtml",
+              "RelativeDocumentMoniker": "Examination\\Views\\Pupils\\Modify.cshtml",
+              "ToolTip": "C:\\Users\\Mahir\\Desktop\\ProSys\\Educational\\Examination\\Views\\Pupils\\Modify.cshtml",
+              "RelativeToolTip": "Examination\\Views\\Pupils\\Modify.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T16:37:18.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Modify.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahir\\Desktop\\ProSys\\Educational\\Examination\\Views\\Lessons\\Modify.cshtml",
+              "RelativeDocumentMoniker": "Examination\\Views\\Lessons\\Modify.cshtml",
+              "ToolTip": "C:\\Users\\Mahir\\Desktop\\ProSys\\Educational\\Examination\\Views\\Lessons\\Modify.cshtml",
+              "RelativeToolTip": "Examination\\Views\\Lessons\\Modify.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T16:34:52.614Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+﻿@model List<Exam>
+
+@{
+}
+
+<h2 class="text-center mb-5">İmtahanlar</h2>
+
+<div class="row mb-5">
+    <div class="col">
+        <a class="btn btn-primary" asp-controller="Exams" asp-action="Create">Yeni əlavə et</a>
+    </div>
+
+    <div class="col">
+
+    </div>
+</div>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Dərsin kodu</th>
+            <th>Şagirdin kodu</th>
+            <th>İmtahan tarixi</th>
+            <th>İmtahan qiyməti</th>
+            <th>İcraat</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var exam in Model)
+        {
+            <tr>
+                <td>@exam.Id</td>
+                <td>@exam.LCode</td>
+                <td>@exam.PCode</td>
+                <td>@exam.EDate.ToString("yyyy/MM/dd")</td>
+                <td>@(exam.EPrice)$</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="Exams" asp-action="Modify" asp-route-id="@exam.Id">Dəyiş</a>
+                    <a class="btn btn-danger btn-sm" asp-controller="Exams" asp-action="Delete" asp-route-id="@exam.Id" onclick="return confirm('Cari imtahanı silməyinizə əminsinizmi?!')">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
